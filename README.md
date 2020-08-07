@@ -7,3 +7,6 @@ From Slack/ General channel
 Type `@jokebot chucknorris` you get a random joke
 
 Use the idea and integrate with any API
+
+# Webhook url [WIP]
+
