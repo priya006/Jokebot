@@ -1,0 +1,15 @@
+{
+  "name": "jokebot",
+  "version": "1.0.0",
+  "description": "\"Slackbot that tells joke\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Priya",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "slackbots": "^1.2.0"
+  }
+}
