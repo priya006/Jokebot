@@ -1,6 +1,8 @@
 # Jokebot Tells you a Random joke :) 
 The Bot Tells a random Joke In General Channel /Slack
 
+# Pre-Requisites
+
 Run the script by typing the command `npm start` from your terminal
 
 From Slack/ General channel
