@@ -1,5 +1,5 @@
-# Jokebot
-The Bot Tells a random Joke In General Channel
+# Jokebot Tells you a Random joke :) 
+The Bot Tells a random Joke In General Channel /Slack
 
 Run the script by typing the command `npm start` from your terminal
 
