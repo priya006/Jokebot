@@ -16,3 +16,5 @@ curl -X POST --data-urlencode 'payload={"channel": "#general", "username": "priy
 ```
 
 # Slash command - Ideation phase
+
+1. https://[yourTeam].slack.com/apps/build/custom-integration
