@@ -3,7 +3,7 @@ const axios = require('axios');
 
 //https://api.slack.com/apps/A018893PTT8/oauth?success=1  app name is new
 const bot = new SlackBot({
-  token: 'xoxb-404612894081-1310882225040-0n2GXOdsDmxW6PBTFksADWKH',
+  token: 'xoxb-404612894081-1310882225040-la48Yr9YXQxQyWg6kSVZg7qf',
   name: 'jokebot'
 });
 
@@ -65,7 +65,7 @@ bot.on('message', data =>{
 
     const options = {
       
-       text: "Webhook incoming message",
+       text: "Webhook incoming message to slack",
         "attachments": [
             {
                 "mrkdwn_in": ["text"],
@@ -100,11 +100,12 @@ bot.on('message', data =>{
                 "ts": 123456789
             }
         ]
+
     
     };
 
     //https://api.slack.com/apps/A018893PTT8/incoming-webhooks?success=1 Click Add new webhook to workspace
-axios.post('https://hooks.slack.com/services/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', JSON.stringify(options))
+axios.post('https://hooks.slack.com/services/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', JSON.stringify(options))
       .then((response) => {
         console.log('SUCEEDED: sent slack webhook: \n', response.data);
         resolve(response.data);
